@@ -1,0 +1,48 @@
+{
+    "bardata": [
+        {
+            "Name": "Jan",
+            "Value": 50
+        },
+        {
+            "Name": "Feb",
+            "Value": 69
+        },
+        {
+            "Name": "Mar",
+            "Value": 70
+        },
+        {
+            "Name": "Apr",
+            "Value": 58
+        },
+        {
+            "Name": "Jun",
+            "Value": 45
+        },
+        {
+            "Name": "jul",
+            "Value":25
+        },
+        {
+            "Name": "Aug",
+            "Value":60
+        },
+        {
+            "Name": "Sep",
+            "Value":70
+        },
+        {
+            "Name": "Oct",
+            "Value":90
+        },
+        {
+            "Name": "Nov",
+            "Value":100
+        },
+        {
+            "Name": "Dec",
+            "Value":59
+        }
+    ]
+}

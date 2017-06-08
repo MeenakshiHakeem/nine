@@ -1,0 +1,45 @@
+{
+    "groupedBarData": [
+        {
+            "label": "A",
+            "Value": 50,
+            "Value1": 60
+        },
+        {
+            "label": "B",
+            "Value": 69,
+            "Value1": 60
+        },
+        {
+            "label": "C",
+            "Value": 70,
+            "Value1": 60
+        },
+        {
+            "label": "D",
+            "Value": 58,
+            "Value1": 60
+        },
+        {
+            "label": "E",
+            "Value": 45,
+            "Value1": 60
+        },
+        {
+            "label": "F",
+            "Value":25,
+            "Value1": 60
+            
+        },
+        {
+            "label": "G",
+            "Value":60,
+            "Value1": 60
+        },
+        {
+            "label": "H",
+            "Value":70,
+            "Value1": 60
+        }
+    ]
+}

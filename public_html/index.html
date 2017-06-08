@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>D3 CHARTS</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/bar.js"></script>
+        <script src="js/bar.js"></script>
+        <script src="js/dashboard.js"></script>
+        <script src="js/groupedBar.js"></script>
+       <link href="css/dashboard.css" rel="stylesheet" type="text/css" />
+       <link href="css/bar.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse visible-xs">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand"><h2></h2></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active dashboardContainer"><a>Dashboard</a></li>
+                        <li class="barGraph"><a>Bar</a></li>
+                        <li class="groupedDashboardContainer"><a>GroupedBar</a></li>
+                        <li><a>Combo Chart</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row content">
+                <div class="col-sm-3 sidenav hidden-xs">
+                    <h2><img src="images/d3logo.png.jpg" height="80" width="172"/></h2>
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="active dashboardContainer"><a>Dashboard</a></li>
+                        <li class="barGraph"><a>Bar</a></li>
+                        <li class="groupedDashboardContainer"><a>GroupedBar</a></li>
+                        <li><a>Combo Chart</a></li>
+                    </ul><br>
+                </div>
+                <br>
+                <div class="col-sm-9" id="dashboardDiv">
+                    <div class="well">
+                        <h4>Dashboard</h4>
+                        <p>Please click on the side bar list to get particular chart</p>
+                    </div>
+                </div>
+                <div class="col-sm-9" id="barChartDiv" style="display:none">
+                    <div class="well">
+                        <h4>Bar Chart</h4>
+                    </div>
+                    <div id='bar1'></div>
+                </div>
+                <div class="col-sm-9" id="groupedBarChartDiv" style="display:none">
+                    <div class="well">
+                        <h4>Grouped Bar Chart</h4>
+                    </div>
+                    <div id='grouped_bar'></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17 May, 2017, 10:37:56 PM
+    Author     : Meenakshi Hakeem
+*/
+/*---------------------------------------------------------------------------*/
+ /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+ .row.content {height: 550px}
+
+ /* Set gray background color and 100% height */
+ .sidenav {
+     background-color: #f1f1f1;
+     height: 100%;
+ }
+
+ /* On small screens, set height to 'auto' for the grid */
+ @media screen and (max-width: 767px) {
+     .row.content {height: auto;} 
+ }
+ /*---------------------------------------------------------------------------*/
+
